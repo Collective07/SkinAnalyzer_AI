@@ -361,10 +361,10 @@ export default function Predict() {
             <div>
               <h3 className="text-base font-semibold text-white mb-3">Navigation</h3>
               <ul className="space-y-2 text-gray-400 text-sm">
-                <li><a href="/" className="hover:text-white transition-colors">Home</a></li>
-                <li><a href="/about" className="hover:text-white transition-colors">About</a></li>
-                <li><a href="/predict" className="hover:text-white transition-colors">Predict</a></li>
-                <li><a href="/team" className="hover:text-white transition-colors">Team</a></li>
+                <li><a href="/" className="hover:text-white transition-colors">Overview</a></li>
+                <li><a href="/about" className="hover:text-white transition-colors">Features</a></li>
+                <li><a href="/predict" className="hover:text-white transition-colors">Scan</a></li>
+                <li><a href="/team" className="hover:text-white transition-colors">About Us</a></li>
               </ul>
             </div>
             <div>
