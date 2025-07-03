@@ -4,7 +4,7 @@ const aboutData = {
   dermatographia: {
     title: "Dermatographia Urticaria",
     description:
-      "Dermatographia Urticaria is a skin condition characterized by raised red lines or welts that appear after the skin is scratched or rubbed. It is a form of physical urticaria caused by an exaggerated release of histamine from skin cells. Symptoms include itching, redness, and swelling.",
+      "Ever noticed how your skin reacts when you scratch it? Dermatographia Urticaria is a fascinating skin condition where even gentle scratching or rubbing creates raised red lines or welts. Think of it as your skin being extra sensitive - it's like your body's way of saying 'I noticed that!' when something touches your skin. While it might look concerning, it's usually harmless and the marks typically fade away within an hour.",
     image: "../images/me.jpg",
   },
   diseasesCovered: {
@@ -20,13 +20,13 @@ const aboutData = {
   classification: {
     title: "Classification Working",
     description:
-      "The project uses deep learning models, such as ResNet50, to classify skin disease images based on extracted features. The model analyzes the uploaded images and predicts the most likely disease with confidence scores.",
+      "Our AI system works like a super-smart dermatologist that never gets tired. Using advanced deep learning models like ResNet50, it carefully examines every detail of your skin image. It's trained on thousands of skin condition examples, so it can spot patterns and features that might be hard to see with the naked eye. When you upload an image, it analyzes it and tells you what condition it thinks you might have, along with how confident it is in that assessment.",
     image: "../images/res50.png",
   },
   segmentation: {
     title: "Segmentation Working",
     description:
-      "Segmentation is performed to identify the affected skin areas precisely. U-Net based architectures are used to generate masks that highlight the lesion boundaries, assisting in detailed analysis and treatment planning.",
+      "Imagine having a magic marker that can perfectly outline exactly where your skin condition is affecting you. That's what our segmentation technology does! Using sophisticated U-Net architectures, it creates precise maps that highlight the exact boundaries of affected areas. This helps doctors and patients understand not just what the condition is, but exactly how much of the skin is involved - which is crucial for planning the right treatment approach.",
     image: "../images/resunet.png",
   },
   technologies: {
@@ -48,11 +48,11 @@ const diseaseImages = [
 
 // Disease descriptions
 const diseaseDescriptions = [
-  "It causes red, raised welts on the skin after light scratching or pressure. It's a form of physical urticaria often triggered by minor irritation. Symptoms usually appear within minutes and fade within 30 minutes to an hour. The condition is typically harmless but can be itchy or uncomfortable.",
-  "It caused by viruses like HPV and poxvirus; appear as small skin-colored bumps; spread through skin contact; treatable with cryotherapy or topical meds.",
-  "Chronic autoimmune conditions causing scaly or itchy patches; triggered by stress or infections; often seen on elbows, knees, or wrists; treated with steroids or phototherapy.",
-  "Inflammatory skin condition causing dry, itchy patches; common in children and allergy-prone individuals; worsens with scratching; treated with moisturizers and steroids.",
-  "Fungal rashes that are red, itchy, and scaly; affect skin, scalp, or moist areas; contagious via contact; treated using topical or oral antifungals.",
+  "This is the 'writing on skin' condition - when you scratch or press on your skin, it responds by creating raised red lines that look like you've been writing on yourself. It's your skin being overly sensitive to touch, and while it can be itchy or uncomfortable, it's generally harmless. The marks usually appear within minutes and disappear within 30 minutes to an hour.",
+  "These are those pesky little bumps caused by viruses like HPV and poxvirus. They're usually skin-colored and can spread through direct contact. The good news is they're treatable with freezing therapy (cryotherapy) or topical medications.",
+  "These are chronic conditions where your immune system gets a bit confused and attacks your own skin. They cause scaly, itchy patches that often show up on elbows, knees, or wrists. Stress and infections can trigger flare-ups, but treatments like steroids and light therapy can help manage symptoms.",
+  "This is a common skin condition that makes your skin dry, red, and incredibly itchy. It's especially common in kids and people with allergies. The tricky part is that scratching makes it worse, creating a frustrating itch-scratch cycle. Treatment focuses on keeping the skin moisturized and sometimes using steroid creams.",
+  "These are fungal infections that create red, itchy, scaly rashes. They can affect your skin, scalp, or any warm, moist areas. They're contagious through contact, but the good news is they're treatable with antifungal creams or pills.",
 ];
 
 export default function About() {

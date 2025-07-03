@@ -30,7 +30,7 @@ export default function Home() {
                 <span className="text-white">with AI</span>
               </h1>
               <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-2xl">
-                Professional-grade AI dermatological screening tool. Comprehensive skin condition analysis with clinical-grade segmentation, severity assessment, and evidence-based treatment recommendations.
+                Get instant insights about your skin with our AI-powered screening tool. Simply upload a photo and our advanced system will analyze it, identify potential conditions, and provide personalized recommendations - all in seconds.
               </p>
             </div>
             
@@ -96,7 +96,7 @@ export default function Home() {
                 Deep Learning + Dermatographia = SkinAnalyzer AI
               </h2>
               <p className="text-lg text-gray-300 leading-relaxed">
-                Dermatographia Urticaria is a unique skin response condition where friction causes raised marks. With deep learning models, we segment and classify the skin's condition from images—ensuring fast, accurate, and intelligent diagnosis.
+                Dermatographia Urticaria is that fascinating condition where your skin "writes back" when you scratch it. Our AI system uses cutting-edge deep learning to analyze skin images and provide quick, accurate diagnoses - helping you understand what's happening with your skin in real-time.
               </p>
               <motion.a
                 className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
@@ -160,7 +160,7 @@ export default function Home() {
                 How SkinAnalyzer AI Works
               </h2>
               <p className="text-lg text-gray-300 leading-relaxed">
-                Upload a skin image → AI classifies the image using ResNet50 → Segmentation performed by U-Net → Thresholding applied automatically → Result & treatment returned.
+                It's as simple as 1-2-3! Upload your skin photo, our AI analyzes it using advanced deep learning models, and you get instant results with personalized treatment recommendations. No waiting, no complicated processes - just quick, reliable insights about your skin health.
               </p>
             </div>
           </motion.div>
